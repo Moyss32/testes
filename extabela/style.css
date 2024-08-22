@@ -1,0 +1,23 @@
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+/* ↑ Serve para mudar a cor dos dados das colunas pares e impares(vlw curso em video)*/
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
